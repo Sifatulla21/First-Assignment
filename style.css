@@ -122,7 +122,40 @@ p {
 footer{
   background-color:black;
   text-align: center;
+  font-family: 'Luxurious Roman', cursive;
   font-size: small;
   color: white;
   font-weight: bolder;
+}
+#question{
+  text-align: center;
+}
+#form{
+  background-color: cyan;
+  border-radius: 10px;
+  height: 500px;
+  width: 400px;
+  box-shadow: 10px 10px 40px gray;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-left: 200px;
+}
+#question-image{
+  width: 110%;
+}
+#name{
+  margin-left: 12px;
+  height: 30px;
+  width: 300px;
+}
+#mail{
+  margin-left: 15px;
+  height: 30px;
+  width: 305px;
+}
+#subject{
+  margin-left: 0px;
+  height: 200px;
+  width: 400px;
 }
