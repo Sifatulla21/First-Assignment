@@ -1,9 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: none;
 }
 h1{
     font-size: 50px;
     padding-left: 1%;
+}
+h2{
+  font-size: 40px;
+}
+p{
+  font-size: 30px;
 }
 .orange-color{
     color: rgb(238, 182, 79);
@@ -26,16 +33,21 @@ p {
   .position{
     margin-left: 45px;
   }
+  #scroll{
+    margin-left: 250px;
+  }
   .flexible-container{
     display: flex;
     margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
   }
   .half-width{
       width: 50%;
       padding-left: 5px;
   }
   .half-width img{
-    width: 60%;
+    width: 80%;
   }
   #focused-position{
     margin-top: 100px;
@@ -45,22 +57,65 @@ p {
 }
 #mission{
   background-color: paleturquoise;
-  background-image: url(images/illustrators/illustrator-1.png);
+  width: 400px;
+  height: 400px;
+  padding: 30px 30px;
+  background-repeat: no-repeat;
+}
+#mission img{
+  width: 200px;
 }
 #vision{
   background-color: plum;
-  background-image: url(images/illustrators/illustrator-2.png);
+  width: 400px;
+  height: 400px;
+  padding: 30px 30px;
+  background-repeat: no-repeat;
+}
+#vision img{
+  width: 200px;
 }
 #goal{
   background-color: bisque;
-  background-image: url(images/illustrators/illustrator-3.png);
+  width: 400px;
+  height: 400px;
+  padding: 30px 30px;
+  background-repeat: no-repeat;
+}
+#goal img{
+  width: 200px;
 }
 .share{
-  width: 33%;
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
-  border-radius: 5px;
+  max-width: 25%;
+  float: center;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.limits{
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 450px;
+
+
+}
+.global-community{
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 450px;
+
+}
+#position1-div{
+  display:inline-block;
+  padding-left:50px;
+  margin-left:100px;
+ 
+}
+#position2-div{
+  display:inline-block;
+  padding-left:50px;
+  margin-left:50px;
+  margin-right: 100px;
 }
